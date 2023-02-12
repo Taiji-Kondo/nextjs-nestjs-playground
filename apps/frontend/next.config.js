@@ -7,6 +7,14 @@ const nextConfig = {
     formats: ['image/avif', 'image/webp'],
   },
   optimizeFonts: true,
+  async rewrites() {
+    return [
+      {
+        destination: '/top',
+        source: '/',
+      },
+    ];
+  },
 }
 
 module.exports = nextConfig
