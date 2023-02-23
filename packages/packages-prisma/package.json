@@ -1,5 +1,5 @@
 {
-  "name": "prisma",
+  "name": "packages-prisma",
   "version": "0.0.0",
   "main": "index.js",
   "types": "index.js",
